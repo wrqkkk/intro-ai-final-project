@@ -1,0 +1,29 @@
+# Confidential data
+# Do not upload raw or restricted research data.
+data/raw/
+data/real/
+*.rds
+*.RData
+*.dta
+*.sav
+*.xlsx
+*.csv
+
+# Allow public-safe documentation in the data folder
+!data/README_data_confidentiality.md
+
+# Notebook and Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model checkpoints and large experiment outputs
+*.pt
+*.pth
+*.ckpt
+runs/
+checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
